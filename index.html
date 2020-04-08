@@ -11,7 +11,7 @@
         </style>
 	</head>
 	<body>
-		<h1> Introduction</h1>
+		<h1 id="heading"> Introduction</h1>
 		<ul>
 			<li>Objectives for the Hour</li>
 			<li>Survey of Customer Science knowledge within the group </li>
@@ -41,9 +41,10 @@
 <a href="https://hourofcode.com/us/learn">Hour of Code</a></p>
 
 <script>
-            var four = 2 + 2;
-            console.log("Wheeee!"); // cmd-opt-I, ctrl-option-I 
-            document.body.innerHTML = "Woooo, I'm all up in your webpage!";
+            var headingEl = document.getElementById("heading");
+        console.log(headingEl);
+        // cmd-option-i , ctrl-shift-i 
+        headingEl.innerHTML = "All about cats";
         </script>
 
 	</body>
